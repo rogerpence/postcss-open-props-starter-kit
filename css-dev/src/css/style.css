@@ -1,0 +1,14 @@
+@import "./_resets.css";
+@import "./_utilities.css"; 
+
+@media (--md-n-below) {   
+    body {
+        background-color: var(--red-7);
+    }
+}
+
+.wrapper {
+    max-width: 1080px;
+    margin: 0 auto; 
+    padding: 2rem;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "postcss-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postcss:build": "postcss ./css-dev/src/css/style.css ---dir public/css --env production",
+    "postcss:watch": "postcss ./css-dev/src/css/style.css ---dir public/css --watch --verbose --env development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^6.0.1",
+    "postcss-import": "^15.1.0",
+    "postcss-custom-media": "^10.0.0",
+    "open-props": "^1.5.10",
+    "postcss-jit-props": "^1.0.13",
+    "@csstools/postcss-global-data": "^2.0.1",
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "postcss": "^8.4.25",
+    "postcss-cli": "^10.1.0"
+  }
+}

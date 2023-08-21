@@ -1,0 +1,16 @@
+.mb-1 {
+    margin-bottom: var(--size-3);
+}
+
+.mb-2 {
+    margin-bottom: var(--size-5);
+}
+
+.mt-1 {
+    margin-top: var(--size-3);
+}
+
+.mt-6 {
+    margin-top: var(--size-13);
+}
+
